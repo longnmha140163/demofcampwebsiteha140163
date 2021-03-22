@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- English Language -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive Website -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        /* The hero image */
+        .hero-image {
+            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/A2/Team1.jpg");
+
+            /* Set a specific height */
+            height: 100%;
+
+            /* Position and center the image to scale nicely on all screens */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        /* Place text in the middle of the image */
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .bg-color {
+            background-color: #f05123;
+        }
+
+        .btn-white {
+            background-color: #FFFFFF;
+            color: #f05123;
+            border-radius: 100px;
+        }
+        
+        .btn-white:hover {
+            background-color: #ff6c43;
+            color: #FFFFFF;
+            border-radius: 100px;
+        }
+
+        .btn-color {
+            background-color: #f05123;
+            color: white;
+            padding: 10px;
+        }
+
+        h1 {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 500;
+            text-align: center;
+            font-size: 64px
+        }
+
+        h2 {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 700;
+            padding-top: 12px;
+            text-align: center;
+            font-size: 24px
+        }
+
+        p {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 16px;
+        }
+
+        /* Footer */
+        .footer {
+            position: bottom;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 30px;
+            background-color: #f05123;
+            color: white;
+            text-align: center;
+        }
+
+        /* Style inputs */
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 100px;
+        }
+
+        input[type=submit]:hover {
+            background-color: #ff6c43;
+            border-radius:100px;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            background-color: #f05123;
+            color: white;
+            border: none;
+            border-radius: 100px;
+        }
+
+        img{
+            border-radius: 24px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-sm bg-color navbar-dark">
+        <a class="navbar-brand" href="index.html">F-CAMP</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="WDT401-A2-Event.html">Event</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="WDT401-A2-Food.html">Food</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="WDT401-A2-Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="WDT401-A2-Register.html">Register</a>
+            </li>
+        </ul>
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-white" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <section>
+        <br>
+        <h1 style="text-align: center; color:#f05123">Gallery</h1>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Images/A2/123718131_1448851438637678_9205068258262067731_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/123792033_1448849941971161_4481467108819206200_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/123813370_1448848148638007_5221489296856543801_o.jpg" width="100%" height=auto>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/A2/123850081_1448852608637561_5713986062018939740_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/123869064_1449630508559771_7336926101384962736_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/123943069_1448848318637990_7812677440939165979_o.jpg" width="100%" height=auto>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/A2/123967920_1448843208638501_5550156577604748429_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/123970655_1448845448638277_4177721007896927090_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/124028351_1448845091971646_2161057699595990976_o.jpg" width="100%" height=auto>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/A2/124055232_1448842831971872_6040200045435055570_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/124107309_1449621705227318_348460261377840830_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/124185514_1449620321894123_6193980562924664714_o.jpg" width="100%" height=auto>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/A2/124252484_1448846881971467_7651980172157495153_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/124282768_1449621188560703_8526694874354660937_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/124283358_1448841748638647_5963856777212169832_o.jpg" width="100%" height=auto>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/A2/124402712_1451471378375684_9188097490142576602_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/124424659_1451475058375316_4841899974248993276_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/124553845_1451473158375506_7243876191516846971_o.jpg" width="100%" height=auto>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/A2/124587767_1451476581708497_4727912838131968733_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/124718311_1451471898375632_184710129467735454_o.jpg" width="100%" height=auto>
+                </div>
+                <div class="col">
+                    <img src="Images/A2/124953676_1449619115227577_5746677760449499129_o.jpg" width="100%" height=auto>
+                </div>
+            </div>
+            <br>
+
+    </section>
+    <br>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2021 Not copyrighted by FPT University</p>
+    </div>
+
+</body>
+
+</html>
