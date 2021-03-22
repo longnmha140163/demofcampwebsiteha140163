@@ -62,7 +62,7 @@
             color: #FFFFFF;
             border-radius: 100px;
         }
-        
+
         .btn-white:hover {
             background-color: #ff6c43;
             color: #FFFFFF;
@@ -137,6 +137,34 @@
             border: none;
             border-radius: 100px;
         }
+
+        .button {
+            background-color: #f05123;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 100px;
+        }
+
+        .button1:hover {
+            background-color: white;
+            color: #f05123;
+            border: 2px solid #f05123;
+        }
+
+        .button1 {
+            background-color: #f05123;
+            color: white;
+            border: 2px solid #f05123;
+        }
     </style>
 
 </head>
@@ -150,7 +178,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="WDT401-A2-Event.html">Event</a>
             </li>
             <li class="nav-item">
@@ -159,7 +187,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="WDT401-A2-Gallery.html">Gallery</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="WDT401-A2-Register.html">Register</a>
             </li>
         </ul>
@@ -169,29 +197,38 @@
         </form>
     </nav>
 
-    <img src="Images/A2/Cover.jpg" width="100%" height=auto>
+    <br>
 
-    <form action="/action_page.php">
-        <br>
-        <h1 style="text-align: center; color:#f05123">Register Now</h1>
-        <br>
-        <div class="container">
-            <input type="text" placeholder="Name" name="name" required>
-            <input type="text" placeholder="Student ID" name="id" required>
-            <input type="text" placeholder="Email Address" name="mail" required>
-            <input type="text" placeholder="Phone Number" name="phone" required>
-            <select id="food" name="Food Preference">
-                <option value="1">Ha Noi Pho</option>
-                <option value="2">Quang Anh</option>
-                <option value="3">Simdo</option>
-                <option value="4">Daily Kebab Haus</option>
-                <option value="5">Azzan Coffee</option>
-                <option value="6">FU Hoa Lac</option>
-            </select>
-            <input type="submit" value="Register">
+    <!-- About -->
+    <div class="container">
+        <div class="row">
+
+            <!-- Image content in left side -->
+            <div class="col">
+                <img src="Images/A2/FC2018.jpg" width="100%" height=auto>
+            </div>
+
+            <!-- Body content in right side-->
+            <div class="col">
+
+                <h2 align="left">F-Camp 2018</h2>
+                <p>Fire it up
+                    <br>
+                    A greeting, a gift from the above-mentioned students for the new students.
+                    <br>
+                    F-camp is an annual program held at FPT University. This year, towards the topic of CONNECTIVITY,
+                    F-Camp will give new students the opportunity to learn to get acquainted with FPT culture and
+                    exchange meetings between students. At F-Camp, you will:
+                    <br>
+                    Have a day to immerse yourself in a cheerful, active and expressive atmosphere.
+                    <br>
+                    Together, sing, dance, and “dance” together.
+                    <br>
+                    Listen to sincere sharing, learning experiences and upcoming student life.
+                </p>
+            </div>
         </div>
-
-    </form>
+    </div>
 
     <br>
 

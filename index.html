@@ -31,7 +31,7 @@
         /* The hero image */
         .hero-image {
             /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Team1.jpg");
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/A2/Team1.jpg");
 
             /* Set a specific height */
             height: 100%;
@@ -58,11 +58,11 @@
         }
 
         .btn-white {
-            background-color: #FFFFFF;
-            color: #f05123;
+            background-color: #ff9c81;
+            color: #FFFFFF;
             border-radius: 100px;
         }
-        
+
         .btn-white:hover {
             background-color: #ff6c43;
             color: #FFFFFF;
@@ -208,6 +208,64 @@
             <p>Registered students: 512</p>
         </div>
     </div>
+
+    <br>
+
+    <!-- About -->
+    <div class="container">
+        <div class="row">
+
+            <!-- Image content in left side -->
+            <div class="col">
+                <img src="Images/A2/FC.png" width="100%" height=auto>
+            </div>
+
+            <!-- Body content in right side-->
+            <div class="col">
+
+                <h2 align="left">What is F-Camp?</h2>
+                <p>A greeting, a gift from the above-mentioned students for the new students.
+                    <br>
+                    F-camp is an annual program held at FPT University. This year, towards the topic of CONNECTIVITY,
+                    F-Camp will give new students the opportunity to learn to get acquainted with FPT culture and
+                    exchange meetings between students. At F-Camp, you will:
+                    <br>
+                    ❤ Have a day to immerse yourself in a cheerful, active and expressive atmosphere.
+                    <br>
+                    ❤ Together, sing, dance, and “dance” together.
+                    <br>
+                    ❤ Listen to sincere sharing, learning experiences and upcoming student life.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <img src="Images/A2/Cover.jpg" width="100%" height=auto>
+
+    <form action="/action_page.php">
+        <br>
+        <h1 style="text-align: center; color:#f05123">Register Now</h1>
+        <br>
+        <div class="container">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Student ID" name="id" required>
+            <input type="text" placeholder="Email Address" name="mail" required>
+            <input type="text" placeholder="Phone Number" name="phone" required>
+            <select id="food" name="Food Preference">
+                <option value="1">Ha Noi Pho</option>
+                <option value="2">Quang Anh</option>
+                <option value="3">Simdo</option>
+                <option value="4">Daily Kebab Haus</option>
+                <option value="5">Azzan Coffee</option>
+                <option value="6">FU Hoa Lac</option>
+            </select>
+            <input type="submit" value="Register">
+        </div>
+
+    </form>
+
+    <br>
 
     <!-- Footer -->
     <div class="footer">
